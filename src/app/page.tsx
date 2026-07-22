@@ -117,27 +117,17 @@ export default function Home() {
 
       {/* 4. Luxury Manifesto */}
       <section className="py-32 px-6 md:px-12 bg-transparent relative z-10">
-        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
-          <div className="md:col-span-7 space-y-8">
-            <span className="font-sans text-[10px] tracking-[0.25em] text-gold uppercase block">
-              The Philosophy
-            </span>
-            <h2 className="font-serif text-3xl md:text-5xl font-light tracking-wide text-white leading-tight">
-              Designed for Those Who Expect More.
-            </h2>
-            <div className="h-[1px] w-20 bg-gold" />
-            <p className="font-serif text-lg md:text-xl text-neutral-300 font-light leading-relaxed italic">
-              “Only Space Realty represents a curated collection of vertical luxury estates where every single residence is crafted as an independent private sanctuary.”
-            </p>
-          </div>
-          <div className="md:col-span-5 space-y-6 text-xs text-grey tracking-wider leading-relaxed">
-            <p>
-              We believe a home should represent a sanctuary of absolute privacy. Spanning 24 lush acres, our design philosophy weaves modern crystalline glass architecture with Gandipet’s quiet lakeside canopy.
-            </p>
-            <p>
-              Every tower offers complete vertical isolation with only two residences per floor. Bounded by independent lift shafts and private entry lobbies, the estate provides ultimate discretion.
-            </p>
-          </div>
+        <div className="max-w-4xl mx-auto space-y-8 text-center">
+          <span className="font-sans text-[10px] tracking-[0.25em] text-gold uppercase block">
+            The Philosophy
+          </span>
+          <h2 className="font-serif text-3xl md:text-5xl font-light tracking-wide text-white leading-tight">
+            Designed for Those Who Expect More.
+          </h2>
+          <div className="h-[1px] w-20 bg-gold mx-auto" />
+          <p className="font-serif text-lg md:text-xl text-neutral-300 font-light leading-relaxed italic max-w-3xl mx-auto">
+            “Only Space Realty represents a curated collection of vertical luxury estates where every single residence is crafted as an independent private sanctuary.”
+          </p>
         </div>
       </section>
 
@@ -180,7 +170,7 @@ export default function Home() {
                 <div>
                   <h4 className="font-serif text-base font-bold text-white">Curated Property Shortlisting</h4>
                   <p className="font-sans text-xs text-grey leading-relaxed mt-1">
-                    Matching your preferences with 100% verified schemes across Shilaj &amp; Sindhu Bhavan Road (Kaveri Soham, Sharnya Altura, Shilp One).
+                    Matching your preferences with 100% verified.
                   </p>
                 </div>
               </div>
@@ -433,7 +423,7 @@ export default function Home() {
           <div className="lg:col-span-7 relative h-[420px] rounded-3xl overflow-hidden border border-gold/40 shadow-2xl bg-[#121212] flex items-center">
             {/* Background elements */}
             <Image
-              src="/assets/shilp_one.png"
+              src="/assets/shilp_one_v2.png"
               alt="ONLY SPACE REALTY Corporate Property Advisory"
               fill
               className="object-cover opacity-20"
@@ -448,7 +438,7 @@ export default function Home() {
                 Direct Guidance from Founder Dhrumit Darji
               </h4>
               <p className="font-sans text-xs tracking-wider text-neutral-300 leading-relaxed">
-                MBA in Marketing with 10+ years of dedicated real estate experience in Ahmedabad West. Personally guiding your property search across Kaveri Soham Vivanta, Sharnya Altura, Shilp One, and Ashray Aurum.
+                MBA in Marketing with 10+ years of dedicated real estate experience in Ahmedabad West. Personally guiding your property search across West Ahmedabad.
               </p>
               <div className="pt-2">
                 <a
@@ -601,8 +591,8 @@ export default function Home() {
                     <Mail className="h-4 w-4 text-gold shrink-0" />
                     <span><strong className="text-white">Direct Email:</strong> <a href="mailto:dhrumitdarji2512@gmail.com" className="hover:text-gold text-white transition-colors">dhrumitdarji2512@gmail.com</a></span>
                   </div>
-                  <p className="italic text-grey text-[11px] pt-2">
-                    &ldquo;Real estate consultation requires an absolute commitment to client integrity, market clarity, and strategic value generation. We ensure every homebuyer makes an informed, asset-backed decision.&rdquo;
+                  <p className="italic text-neutral-300 text-xs pt-2 leading-relaxed">
+                    &ldquo;Our number one priority is to deliver excellence in every aspect of your real estate search and transaction. We know that having a good home is central to every family’s wellbeing. We’re grateful to be a part of helping that piece come together for so many families, year after year. Our client is not only our most important business, but hopefully will become a friend as well.&rdquo;
                   </p>
                 </div>
               </div>

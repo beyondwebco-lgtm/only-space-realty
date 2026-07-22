@@ -24,8 +24,8 @@ export default function AboutPage() {
           <h1 className="font-serif text-4xl md:text-6xl font-light tracking-wide text-white">
             The Vision & Legacy of ONLY SPACE REALTY.
           </h1>
-          <p className="font-sans text-xs tracking-wider text-grey max-w-2xl leading-relaxed">
-            <strong className="text-white">ONLY SPACE REALTY</strong> is built upon a simple promise: to provide strategic real estate advisory, transparent property dealings, and market leadership across Ahmedabad-West since 2017.
+          <p className="font-sans text-xs md:text-sm tracking-wider text-neutral-300 max-w-3xl leading-relaxed">
+            Our number one priority is to deliver excellence in every aspect of your real estate search and transaction. We know that having a good home is central to every family’s wellbeing. We’re grateful to be a part of helping that piece come together for so many families, year after year. Our client is not only our most important business, but hopefully will become a friend as well.
           </p>
         </div>
       </section>
@@ -272,8 +272,8 @@ export default function AboutPage() {
         <span className="font-sans text-[10px] tracking-[0.25em] text-gold uppercase block font-bold">
           Consultancy Leadership Vision
         </span>
-        <h2 className="font-serif text-3xl font-light text-white italic">
-          “ONLY SPACE REALTY is built on client trust, transparent dealings, and long-term commitment. We empower buyers, sellers, and corporate clients to make confident real estate investments.”
+        <h2 className="font-serif text-xl md:text-3xl font-light text-white italic leading-relaxed max-w-4xl mx-auto">
+          “Our number one priority is to deliver excellence in every aspect of your real estate search and transaction. We know that having a good home is central to every family’s wellbeing. We’re grateful to be a part of helping that piece come together for so many families, year after year. Our client is not only our most important business, but hopefully will become a friend as well.”
         </h2>
         <div className="font-sans text-xs tracking-widest uppercase text-white font-bold mt-4">
           — Dhrumit Darji &amp; ONLY SPACE REALTY Team

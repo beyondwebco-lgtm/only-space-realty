@@ -36,7 +36,7 @@ export default function GalleryPage() {
     {
       id: 2,
       category: "RESIDENTIAL",
-      src: "/assets/sharnya_altura.png",
+      src: "/assets/sharnya_altura_v2.png",
       title: "Sharnya Altura",
       location: "Sindhu Bhavan Road / Shilaj, Ahmedabad West",
       desc: "Ultra-luxury high-rise residential towers offering sky-deck living and panoramic views off Sindhu Bhavan Road.",
@@ -52,18 +52,18 @@ export default function GalleryPage() {
     {
       id: 4,
       category: "COMMERCIAL",
-      src: "/assets/shilp_one.png",
+      src: "/assets/shilp_one_v2.png",
       title: "Shilp One",
       location: "Sindhu Bhavan Road, Bodakdev, Ahmedabad West",
       desc: "Iconic corporate commercial office building with sleek glass facade and high-street retail showrooms.",
     },
     {
       id: 5,
-      category: "COMMERCIAL",
-      src: "/assets/ashray_aurum.png",
+      category: "RESIDENTIAL",
+      src: "/assets/ashray_aurum_v2.png",
       title: "Ashray Aurum",
       location: "Near Shilaj, Ahmedabad West",
-      desc: "Executive office spaces and prime retail showroom storefronts situated near Shilaj.",
+      desc: "Premier luxury residential apartments featuring modern architecture, rooftop sports courts, and lush green surroundings near Shilaj.",
     },
   ];
 

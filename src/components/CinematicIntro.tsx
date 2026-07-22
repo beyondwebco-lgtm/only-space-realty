@@ -52,7 +52,7 @@ export default function CinematicIntro() {
                 transition={{ duration: 1.8, delay: 0.5 }}
                 className="font-serif text-3xl md:text-5xl font-light tracking-wide text-white leading-tight"
               >
-                Where Architecture<br />Meets Legacy.
+                Where Every Home<br />Tells a Story. Let's Write Yours.
               </motion.h1>
             </div>
 
