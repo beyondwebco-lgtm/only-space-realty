@@ -16,7 +16,7 @@ export default function PropertiesPage() {
     {
       category: "RESIDENTIAL",
       title: "Residential Properties",
-      desc: "Luxury 3, 4 & 5 BHK Apartments, Sky Duplexes, High-End Penthouses & Premium Gated Bungalows across Shilaj & Sindhu Bhavan Road.",
+      desc: "Luxury 2, 3 & 4 BHK Apartments, Sky Duplexes, High-End Penthouses & Premium Gated Bungalows across Shilaj & Sindhu Bhavan Road.",
       tag: "Ahmedabad West",
     },
     {
@@ -28,7 +28,7 @@ export default function PropertiesPage() {
     {
       category: "PLOT",
       title: "Plot & Land Deals",
-      desc: "100% Verified Clear-Title Residential Plot Parcels & High-Appreciation Commercial Land in Shilaj Circle & Western Ahmedabad corridors.",
+      desc: "100% Verified Clear-Title Residential Plot Parcels & High-Appreciation Commercial Land in Shilaj & Western Ahmedabad corridors.",
       tag: "Verified Land Parcels",
     },
   ];
@@ -59,16 +59,16 @@ export default function PropertiesPage() {
       description: "Sharnya Altura represents ultra-luxury vertical living situated right off Sindhu Bhavan Road. Designed for discerning homebuyers seeking privacy, signature architectural design, and unmatched lifestyle amenities.",
     },
     {
-      id: "kaveri-trisara",
-      name: "Kaveri Trisara",
+      id: "suryansh-solitaire",
+      name: "Suryansh Solitaire",
       category: "RESIDENTIAL",
-      type: "Signature Sky Villas & Apartments",
+      type: "Luxury Executive Apartments",
       location: "Shilaj Area, Ahmedabad West",
       price: "On Advisory Request",
-      image: "/assets/kaveri_trisara.png",
+      image: "/assets/suryansh_solitaire.png",
       status: "Premium Residence",
-      highlights: ["Low-Density Living", "Customized Floor Layouts", "Landscaped Gardens & Gym"],
-      description: "Kaveri Trisara offers signature residential apartments crafted for exclusivity and comfort in the heart of Shilaj. Features elegant interior layouts, serene green surroundings, and rapid access to SBR.",
+      highlights: ["Illuminated Facade", "Spacious Floor Plans", "High Appreciation"],
+      description: "Suryansh Solitaire offers signature residential apartments crafted for exclusivity and comfort in the heart of Shilaj. Features elegant interior layouts, serene green surroundings, and rapid access to SBR.",
     },
     {
       id: "shilp-one",
@@ -87,12 +87,12 @@ export default function PropertiesPage() {
       name: "Ashray Aurum",
       category: "COMMERCIAL",
       type: "Mixed-Use Commercial & Luxury Spaces",
-      location: "Near Shilaj Circle, Ahmedabad West",
+      location: "Near Shilaj, Ahmedabad West",
       price: "Investor Advisory",
       image: "/assets/ashray_aurum.png",
-      status: "Shilaj Circle Landmark",
-      highlights: ["Shilaj Circle Proximity", "Executive Workspaces & Retail", "High Appreciation Corridor"],
-      description: "Ashray Aurum is a prominent commercial and mixed-use project strategically situated near Shilaj Circle. Offers prime retail frontage and corporate offices tailored for growing businesses.",
+      status: "Shilaj Landmark",
+      highlights: ["Shilaj Proximity", "Executive Workspaces & Retail", "High Appreciation Corridor"],
+      description: "Ashray Aurum is a prominent commercial and mixed-use project strategically situated near Shilaj. Offers prime retail frontage and corporate offices tailored for growing businesses.",
     },
   ];
 
@@ -175,6 +175,7 @@ export default function PropertiesPage() {
                     src={scheme.image}
                     alt={`${scheme.name} Site Photo`}
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute top-4 left-4 bg-neutral-950/90 backdrop-blur px-3 py-1.5 rounded-full border border-gold/40 text-[9px] font-bold text-gold uppercase tracking-widest">
@@ -245,7 +246,7 @@ export default function PropertiesPage() {
             Looking for Specific Schemes in Shilaj or SBR?
           </h2>
           <p className="font-sans text-xs text-grey leading-relaxed">
-            Connect directly with <strong className="text-white">Dhrumit Darji</strong> (MBA Marketing, 10+ Years Experience in Ahmedabad West Real Estate). We will guide you through site visits, verified title checks, and price negotiations for Kaveri Soham Vivanta, Sharnya Altura, Kaveri Trisara, Shilp One, Ashray Aurum, and many more.
+            Connect directly with <strong className="text-white">Dhrumit Darji</strong> (MBA Marketing, 10+ Years Experience in Ahmedabad West Real Estate). We will guide you through site visits, verified title checks, and price negotiations for Kaveri Soham Vivanta, Sharnya Altura, Suryansh Solitaire, Shilp One, Ashray Aurum, and many more.
           </p>
           <div className="pt-2 flex justify-center">
             <a

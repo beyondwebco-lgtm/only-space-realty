@@ -35,7 +35,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <Image
             src="/assets/shilaj_circle_bg.png"
-            alt="Shilaj Circle, Ahmedabad, Gujarat — Real Estate Hub"
+            alt="Shilaj, Ahmedabad, Gujarat — Real Estate Hub"
             fill
             priority
             className="object-cover opacity-60 scale-105 animate-[pulse_8s_infinite_alternate]"
@@ -52,7 +52,7 @@ export default function Home() {
             className="flex items-center justify-center gap-2 text-white font-sans text-xs tracking-[0.3em] uppercase"
           >
             <Compass className="h-4 w-4 text-gold animate-spin-slow" />
-            Shilaj Circle, Ahmedabad, Gujarat
+            Shilaj, Ahmedabad, Gujarat
           </motion.div>
 
           <motion.h1
@@ -252,7 +252,7 @@ export default function Home() {
             <div className="pt-8 mt-8 border-t border-neutral-800 relative z-10 flex flex-wrap items-center justify-between gap-4">
               <div>
                 <span className="text-[10px] text-grey uppercase block font-bold">Headquarters Location</span>
-                <span className="text-xs font-serif font-bold text-white">Shilaj Circle, Ahmedabad West</span>
+                <span className="text-xs font-serif font-bold text-white">Shilaj, Ahmedabad West</span>
               </div>
               <a
                 href="https://wa.me/918734848266?text=Hello%20Only%20Space%20Realty,%20I%20would%20like%20to%20book%20an%20advisory%20session%20with%20Dhrumit%20Darji."
@@ -295,7 +295,7 @@ export default function Home() {
                   Residential Properties
                 </h3>
                 <p className="font-sans text-xs tracking-wider text-grey leading-relaxed">
-                  Premier 3, 4 & 5 BHK luxury apartments, sky duplexes, penthouses, and gated bungalow estates across Shilaj & Sindhu Bhavan Road.
+                  Premier 2, 3 & 4 BHK luxury apartments, sky duplexes, penthouses, and gated bungalow estates across Shilaj & Sindhu Bhavan Road.
                 </p>
                 <ul className="space-y-2 font-sans text-xs text-neutral-300">
                   <li>• Shilaj & Sindhu Bhavan Road prime corridors</li>
@@ -363,7 +363,7 @@ export default function Home() {
                 </p>
                 <ul className="space-y-2 font-sans text-xs text-neutral-300">
                   <li>• Clear title & verified land records</li>
-                  <li>• Strategic Shilaj Circle growth belt</li>
+                  <li>• Strategic Shilaj growth belt</li>
                   <li>• High appreciation land investments</li>
                 </ul>
               </div>
@@ -546,7 +546,7 @@ export default function Home() {
                     <MapPin className="h-4 w-4 text-gold shrink-0 mt-0.5" />
                     <div>
                       <strong className="text-white block font-serif text-xs">Headquarters Address:</strong>
-                      SHILAJ CIRCLE, SHILAJ, AHMEDABAD, GUJARAT - 380059.
+                      SHILAJ, AHMEDABAD, GUJARAT - 380059.
                     </div>
                   </div>
                 </div>

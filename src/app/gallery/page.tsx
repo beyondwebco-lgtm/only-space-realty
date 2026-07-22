@@ -44,10 +44,10 @@ export default function GalleryPage() {
     {
       id: 3,
       category: "RESIDENTIAL",
-      src: "/assets/kaveri_trisara.png",
-      title: "Kaveri Trisara",
+      src: "/assets/suryansh_solitaire.png",
+      title: "Suryansh Solitaire",
       location: "Shilaj Area, Ahmedabad West",
-      desc: "Signature luxury sky estates and low-density residential towers surrounded by manicured green lawns.",
+      desc: "Premium residential tower with luminous night architecture and luxury executive apartments.",
     },
     {
       id: 4,
@@ -62,8 +62,8 @@ export default function GalleryPage() {
       category: "COMMERCIAL",
       src: "/assets/ashray_aurum.png",
       title: "Ashray Aurum",
-      location: "Near Shilaj Circle, Ahmedabad West",
-      desc: "Executive office spaces and prime retail showroom storefronts situated near Shilaj Circle.",
+      location: "Near Shilaj, Ahmedabad West",
+      desc: "Executive office spaces and prime retail showroom storefronts situated near Shilaj.",
     },
   ];
 
@@ -136,6 +136,7 @@ export default function GalleryPage() {
                     src={item.src}
                     alt={item.title}
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-neutral-950/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -235,7 +236,7 @@ export default function GalleryPage() {
             Schedule a Personal Property Site Visit
           </h2>
           <p className="font-sans text-xs text-grey leading-relaxed">
-            Want to visit Kaveri Soham Vivanta, Sharnya Altura, Kaveri Trisara, Shilp One, or Ashray Aurum in person? Contact Founder <strong className="text-white">Dhrumit Darji</strong> to organize a private site tour and price consultation.
+            Want to visit Kaveri Soham Vivanta, Sharnya Altura, Suryansh Solitaire, Shilp One, or Ashray Aurum in person? Contact Founder <strong className="text-white">Dhrumit Darji</strong> to organize a private site tour and price consultation.
           </p>
           <div className="pt-2 flex justify-center">
             <a

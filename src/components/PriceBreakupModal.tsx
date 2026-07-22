@@ -183,7 +183,7 @@ Thank you.`;
                   Select Category...
                 </option>
                 <option value="Residential" className="bg-[#121212] text-white">
-                  Residential (3, 4 & 5 BHK)
+                  Residential (2, 3 & 4 BHK)
                 </option>
                 <option value="Commercial" className="bg-[#121212] text-white">
                   Commercial (Offices & Retail)
@@ -208,8 +208,8 @@ Thank you.`;
                   <option value="" className="bg-[#121212] text-neutral-500">
                     Select Location...
                   </option>
-                  <option value="Shilaj Circle Area" className="bg-[#121212] text-white">
-                    Shilaj Circle Area
+                  <option value="Shilaj Area" className="bg-[#121212] text-white">
+                    Shilaj Area
                   </option>
                   <option value="Sindhu Bhavan Road (SBR)" className="bg-[#121212] text-white">
                     Sindhu Bhavan Road (SBR)
@@ -220,8 +220,8 @@ Thank you.`;
                   <option value="Bopal & Ambli" className="bg-[#121212] text-white">
                     Bopal & Ambli
                   </option>
-                  <option value="Science City & Thaltej" className="bg-[#121212] text-white">
-                    Science City & Thaltej
+                  <option value="Science City & Science Park & Thaltej" className="bg-[#121212] text-white">
+                    Science City &amp; Science Park &amp; Thaltej
                   </option>
                 </select>
               </div>

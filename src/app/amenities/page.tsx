@@ -15,7 +15,7 @@ export default function ServicesPage() {
       icon: Home,
       title: "Residential Property Advisory",
       subtitle: "Buying, Selling & Renting of Luxury Homes",
-      description: "Comprehensive residential real estate consultation in Western Ahmedabad. We assist luxury homebuyers and investors in acquiring, selling, or renting 3, 4 & 5 BHK apartments, sky duplexes, penthouses, and gated bungalows in Shilaj and Sindhu Bhavan Road.",
+      description: "Comprehensive residential real estate consultation in Western Ahmedabad. We assist luxury homebuyers and investors in acquiring, selling, or renting 2, 3 & 4 BHK apartments, sky duplexes, penthouses, and gated bungalows in Shilaj and Sindhu Bhavan Road.",
       features: [
         "Curated site visits & direct owner/builder meetings",
         "Best market price negotiation & transparent terms",
@@ -43,7 +43,7 @@ export default function ServicesPage() {
       icon: Landmark,
       title: "Plot & Land Deals Advisory",
       subtitle: "Verified Residential & Commercial Land",
-      description: "Expert guidance in acquiring title-verified residential land for custom villa construction and high-appreciation commercial plots near Shilaj Circle and Western Ahmedabad growth belts.",
+      description: "Expert guidance in acquiring title-verified residential land for custom villa construction and high-appreciation commercial plots near Shilaj and Western Ahmedabad growth belts.",
       features: [
         "100% Clear-title verified land parcels",
         "Residential plots for custom bungalow construction",

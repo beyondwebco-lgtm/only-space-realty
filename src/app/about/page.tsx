@@ -79,7 +79,7 @@ export default function AboutPage() {
                 </div>
                 <div className="flex items-start gap-3">
                   <MapPin className="h-4 w-4 text-gold shrink-0 mt-0.5" />
-                  <span><strong>Office Address:</strong> Shilaj Circle, Shilaj, Ahmedabad, Gujarat - 380059</span>
+                  <span><strong>Office Address:</strong> Shilaj, Ahmedabad, Gujarat - 380059</span>
                 </div>
               </div>
             </div>
@@ -249,7 +249,7 @@ export default function AboutPage() {
                 </tr>
                 <tr className="border-b border-neutral-900">
                   <td className="px-6 py-4 font-semibold text-grey uppercase text-[10px] bg-[#181818]/60">Consultancy HQ</td>
-                  <td className="px-6 py-4">Shilaj Circle, Shilaj, Ahmedabad, Gujarat - 380059</td>
+                  <td className="px-6 py-4">Shilaj, Ahmedabad, Gujarat - 380059</td>
                 </tr>
                 <tr className="border-b border-neutral-900">
                   <td className="px-6 py-4 font-semibold text-grey uppercase text-[10px] bg-[#181818]/60">Specialties (Shilaj & Sindhu Bhavan)</td>

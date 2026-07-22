@@ -15,7 +15,7 @@ interface ZoneDetail {
 export default function MasterPlan() {
   const [selectedZone, setSelectedZone] = useState<ZoneDetail | null>({
     id: "shilaj",
-    name: "Shilaj Circle & Belt",
+    name: "Shilaj Area & Belt",
     type: "Prime Luxury Villa Corridor",
     description: "Hub of premium independent bungalows, modern gated villa communities, and Only Space Realty headquarters.",
     specs: ["Headquarters Location", "Exclusive Villa Gated Estates", "High Capital Appreciation"],
@@ -24,7 +24,7 @@ export default function MasterPlan() {
   const zones: Record<string, ZoneDetail> = {
     shilaj: {
       id: "shilaj",
-      name: "Shilaj Circle & Belt",
+      name: "Shilaj Area & Belt",
       type: "Prime Luxury Villa Corridor",
       description: "Hub of premium independent bungalows, modern gated villa communities, and Only Space Realty headquarters.",
       specs: ["Headquarters Location", "Exclusive Villa Gated Estates", "High Capital Appreciation"],
@@ -33,7 +33,7 @@ export default function MasterPlan() {
       id: "sbr",
       name: "Sindhu Bhavan Road (SBR)",
       type: "Ultra-Luxury Residential & Commercial Hub",
-      description: "Ahmedabad's premier high-end lifestyle corridor featuring 3, 4 & 5 BHK luxury sky apartments and fine-dining plazas.",
+      description: "Ahmedabad's premier high-end lifestyle corridor featuring 2, 3 & 4 BHK luxury sky apartments and fine-dining plazas.",
       specs: ["Low-density luxury high-rises", "Italian marble residences", "Top developer portfolios"],
     },
     bodakdev: {
@@ -45,7 +45,7 @@ export default function MasterPlan() {
     },
     science: {
       id: "science",
-      name: "Science City Road Corridor",
+      name: "Science City & Science Park Corridor",
       type: "Rapid Growth Residential & Commercial",
       description: "Surging growth corridor with high-yield commercial shops, corporate suites, and modern residential developments.",
       specs: ["High-Yield Commercial Units", "Fast Rental Growth", "RERA Approved Projects"],
@@ -122,7 +122,7 @@ export default function MasterPlan() {
                 onClick={() => setSelectedZone(zones.shilaj)}
               />
               <text x="300" y="284" textAnchor="middle" fill="#FAFAFA" className="font-serif text-[11px] pointer-events-none font-bold">
-                Shilaj Circle
+                Shilaj
               </text>
 
               {/* SBR Zone */}
@@ -163,7 +163,7 @@ export default function MasterPlan() {
                 onClick={() => setSelectedZone(zones.science)}
               />
               <text x="280" y="140" textAnchor="middle" fill="#FAFAFA" className="font-serif text-[10px] pointer-events-none font-bold">
-                Science City
+                Science City &amp; Science Park
               </text>
 
               {/* SG Highway Zone */}

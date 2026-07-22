@@ -22,7 +22,7 @@
 - **Founder & Chief Consultant:** Dhrumit Darji (MBA Marketing)
 - **Direct Email:** [dhrumitdarji2512@gmail.com](mailto:dhrumitdarji2512@gmail.com)
 - **Phone / WhatsApp:** [+91 87348 48266](tel:+918734848266)
-- **Headquarters Address:** Shilaj Circle, Shilaj, Ahmedabad, Gujarat – 380059
+- **Headquarters Address:** Shilaj, Ahmedabad, Gujarat – 380059
 
 ---
 

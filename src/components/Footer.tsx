@@ -66,7 +66,7 @@ export default function Footer() {
             <li className="flex items-start gap-2.5">
               <MapPin className="h-4 w-4 text-gold shrink-0 mt-0.5" />
               <span className="leading-relaxed">
-                Shilaj Circle, Shilaj, Ahmedabad, Gujarat – 380059
+                Shilaj, Ahmedabad, Gujarat – 380059
               </span>
             </li>
             <li className="flex items-center gap-2.5">

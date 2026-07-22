@@ -182,10 +182,10 @@ export default function BookingModal({ isOpen, onClose }: BookingModalProps) {
                         onChange={(e) => setFormData({ ...formData, location: e.target.value })}
                         className="w-full bg-[#181818] border border-neutral-800 rounded-xl px-4 py-2.5 text-xs text-white outline-none focus:border-gold/60 focus:bg-neutral-900 transition-all font-sans"
                       >
-                        <option value="shilaj">Shilaj / Shilaj Circle</option>
+                        <option value="shilaj">Shilaj Area</option>
                         <option value="sbr">Sindhu Bhavan Road</option>
                         <option value="bodakdev">Bodakdev</option>
-                        <option value="science-city">Science City</option>
+                        <option value="science-city">Science City &amp; Science Park</option>
                         <option value="sg-highway">SG Highway</option>
                         <option value="ambli">Ambli Bopal Road</option>
                       </select>
