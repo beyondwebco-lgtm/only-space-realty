@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { Mail, Phone, MapPin } from "lucide-react";
+import Logo from "@/components/Logo";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -11,19 +11,7 @@ export default function Footer() {
     <footer className="bg-[#0A0A0A] border-t border-neutral-900 py-16 px-6 md:px-12 mt-auto relative z-10">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="md:col-span-1 space-y-6">
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="bg-white/95 rounded-xl px-3.5 py-2 inline-flex items-center justify-center border border-white/30 shadow-md transition-transform duration-300 group-hover:scale-105">
-              <div className="relative h-9 w-36">
-                <Image
-                  src="/assets/only_space_logo.png"
-                  alt="ONLY SPACE REALTY Logo"
-                  fill
-                  sizes="144px"
-                  className="object-contain"
-                />
-              </div>
-            </div>
-          </Link>
+          <Logo variant="footer" />
           <p className="font-sans text-xs tracking-wider text-grey leading-relaxed">
             Your Trusted Real Estate Partner. Helping buyers, sellers, and investors make confident real estate decisions across Ahmedabad since 2015.
           </p>

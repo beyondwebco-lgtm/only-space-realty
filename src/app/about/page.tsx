@@ -5,6 +5,7 @@ import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BookingModal from "@/components/BookingModal";
+import Logo from "@/components/Logo";
 import { Compass, Calendar, Sparkles, MapPin, Grid, Building2, UserCheck, GraduationCap, Award, CheckCircle, Shield, Mail } from "lucide-react";
 
 export default function AboutPage() {
@@ -33,25 +34,8 @@ export default function AboutPage() {
       <section className="py-20 px-6 md:px-12 max-w-7xl mx-auto relative z-10 border-b border-neutral-900">
         <div className="bg-[#121212]/80 border border-gold/30 rounded-3xl p-8 md:p-12 shadow-2xl space-y-12">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 border-b border-neutral-800 pb-8">
-            <div className="flex items-center gap-4">
-              <div className="relative w-44 h-14 rounded-xl overflow-hidden bg-white/95 p-1.5 border border-white/20 shrink-0 shadow-xl flex items-center justify-center">
-                <Image
-                  src="/assets/only_space_logo.png"
-                  alt="ONLY SPACE REALTY Logo"
-                  fill
-                  className="object-contain p-0.5"
-                />
-              </div>
-              <div className="space-y-1">
-                <h2 className="font-serif text-3xl md:text-4xl text-white font-light tracking-wide">
-                  ONLY SPACE REALTY
-                </h2>
-                <div className="font-sans text-xs text-gold uppercase tracking-widest font-semibold">
-                  Your Trusted Property Partner
-                </div>
-              </div>
-            </div>
-            <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/40 text-gold px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-widest">
+            <Logo variant="card" />
+            <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/40 text-gold px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-widest shrink-0">
               <Calendar className="h-4 w-4" /> Est. Sept 21, 2015
             </div>
           </div>

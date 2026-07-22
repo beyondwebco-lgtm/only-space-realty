@@ -15,6 +15,7 @@ import ResidenceConfigurator from "@/components/ResidenceConfigurator";
 import BookingModal from "@/components/BookingModal";
 import PriceBreakupModal from "@/components/PriceBreakupModal";
 import ReviewsSection from "@/components/ReviewsSection";
+import Logo from "@/components/Logo";
 
 export default function Home() {
   const [bookingOpen, setBookingOpen] = useState(false);
@@ -496,21 +497,8 @@ export default function Home() {
               
               <div className="space-y-6 relative z-10">
                 <div className="flex items-center justify-between border-b border-neutral-800 pb-6">
-                  <div className="flex items-center gap-4">
-                    <div className="relative w-36 h-12 rounded-xl overflow-hidden bg-white/95 p-1 border border-white/20 shrink-0 shadow-lg flex items-center justify-center">
-                      <Image
-                        src="/assets/only_space_logo.png"
-                        alt="ONLY SPACE REALTY Logo"
-                        fill
-                        className="object-contain p-0.5"
-                      />
-                    </div>
-                    <div>
-                      <h3 className="font-serif text-2xl text-white font-bold tracking-wider">ONLY SPACE REALTY</h3>
-                      <span className="font-sans text-[10px] text-gold tracking-widest uppercase font-semibold block">Your Trusted Property Partner</span>
-                    </div>
-                  </div>
-                  <span className="font-sans text-[9px] bg-gold/10 border border-gold/40 text-gold px-3 py-1.5 rounded-full uppercase tracking-wider font-bold">
+                  <Logo variant="card" />
+                  <span className="font-sans text-[9px] bg-gold/10 border border-gold/40 text-gold px-3 py-1.5 rounded-full uppercase tracking-wider font-bold shrink-0">
                     Est. Sept 21, 2015
                   </span>
                 </div>

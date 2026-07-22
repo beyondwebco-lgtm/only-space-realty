@@ -7,6 +7,8 @@ import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, ArrowRight } from "lucide-react";
 
+import Logo from "@/components/Logo";
+
 interface HeaderProps {
   onOpenBooking: () => void;
 }
@@ -32,20 +34,7 @@ export default function Header({ onOpenBooking }: HeaderProps) {
         className="fixed top-0 left-0 right-0 z-50 px-6 py-4 md:px-12 pointer-events-none"
       >
         <div className="max-w-7xl mx-auto flex items-center justify-between bg-[#0E0E0E] border border-neutral-800/90 pointer-events-auto rounded-full px-6 py-3 shadow-2xl transition-all duration-300 hover:border-gold/40">
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="bg-white/95 rounded-xl px-3 py-1.5 flex items-center justify-center border border-white/30 shadow-md transition-transform duration-300 group-hover:scale-105">
-              <div className="relative h-7 w-28 md:w-32">
-                <Image
-                  src="/assets/only_space_logo.png"
-                  alt="ONLY SPACE REALTY Logo"
-                  fill
-                  sizes="128px"
-                  className="object-contain"
-                  priority
-                />
-              </div>
-            </div>
-          </Link>
+          <Logo variant="header" />
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8">
@@ -111,18 +100,8 @@ export default function Header({ onOpenBooking }: HeaderProps) {
               className="w-4/5 max-w-sm bg-[#111111] border-l border-neutral-800 h-full shadow-2xl p-8 flex flex-col justify-between"
             >
               <div className="space-y-8 mt-16">
-                <div className="flex items-center gap-3 border-b border-neutral-800 pb-4">
-                  <div className="bg-white/95 rounded-xl px-3 py-1.5 flex items-center justify-center border border-white/30 shadow-md">
-                    <div className="relative h-8 w-32">
-                      <Image
-                        src="/assets/only_space_logo.png"
-                        alt="ONLY SPACE REALTY Logo"
-                        fill
-                        sizes="128px"
-                        className="object-contain"
-                      />
-                    </div>
-                  </div>
+                <div className="border-b border-neutral-800 pb-4">
+                  <Logo variant="header" />
                 </div>
                 <nav className="flex flex-col gap-6">
                   {menuItems.map((item, idx) => {
