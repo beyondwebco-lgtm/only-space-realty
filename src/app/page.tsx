@@ -486,7 +486,7 @@ export default function Home() {
               ONLY SPACE REALTY
             </h2>
             <p className="font-sans text-xs tracking-wider text-grey leading-relaxed">
-              Serving real estate investors and luxury homebuyers since <strong className="text-white">September 21, 2015</strong>.
+              Serving real estate investors and luxury homebuyers since <strong className="text-white">September 21, 2017</strong>.
             </p>
           </div>
 
@@ -499,7 +499,7 @@ export default function Home() {
                 <div className="flex items-center justify-between border-b border-neutral-800 pb-6">
                   <Logo variant="card" />
                   <span className="font-sans text-[9px] bg-gold/10 border border-gold/40 text-gold px-3 py-1.5 rounded-full uppercase tracking-wider font-bold shrink-0">
-                    Est. Sept 21, 2015
+                    Est. Sept 21, 2017
                   </span>
                 </div>
 
@@ -595,7 +595,7 @@ export default function Home() {
                   </div>
                   <div className="flex items-center gap-3 bg-[#1A1A1A] p-3.5 rounded-xl border border-neutral-800">
                     <UserCheck className="h-4 w-4 text-gold shrink-0" />
-                    <span><strong className="text-white">Industry Experience:</strong> Working in Real Estate since 2015 (10+ Years Expertise)</span>
+                    <span><strong className="text-white">Industry Experience:</strong> Working in Real Estate since 2017</span>
                   </div>
                   <div className="flex items-center gap-3 bg-[#1A1A1A] p-3.5 rounded-xl border border-neutral-800">
                     <Mail className="h-4 w-4 text-gold shrink-0" />
@@ -609,7 +609,7 @@ export default function Home() {
 
               <div className="pt-8 border-t border-neutral-800 flex items-center justify-between font-sans text-[10px] text-grey uppercase tracking-wider relative z-10">
                 <span>Dhrumit Darji • ONLY SPACE REALTY</span>
-                <span className="text-gold font-bold">In Real Estate Since 2015</span>
+                <span className="text-gold font-bold">In Real Estate Since 2017</span>
               </div>
             </div>
           </div>

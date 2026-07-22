@@ -25,7 +25,7 @@ export default function AboutPage() {
             The Vision & Legacy of ONLY SPACE REALTY.
           </h1>
           <p className="font-sans text-xs tracking-wider text-grey max-w-2xl leading-relaxed">
-            <strong className="text-white">ONLY SPACE REALTY</strong> is built upon a simple promise: to provide strategic real estate advisory, transparent property dealings, and market leadership across Ahmedabad-West since 2015.
+            <strong className="text-white">ONLY SPACE REALTY</strong> is built upon a simple promise: to provide strategic real estate advisory, transparent property dealings, and market leadership across Ahmedabad-West since 2017.
           </p>
         </div>
       </section>
@@ -36,7 +36,7 @@ export default function AboutPage() {
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 border-b border-neutral-800 pb-8">
             <Logo variant="card" />
             <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/40 text-gold px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-widest shrink-0">
-              <Calendar className="h-4 w-4" /> Est. Sept 21, 2015
+              <Calendar className="h-4 w-4" /> Est. Sept 21, 2017
             </div>
           </div>
 
@@ -71,7 +71,7 @@ export default function AboutPage() {
                 </div>
                 <div className="flex items-center gap-3">
                   <UserCheck className="h-4 w-4 text-gold shrink-0" />
-                  <span><strong>Experience:</strong> Working in Real Estate since 2015 (10+ Years)</span>
+                  <span><strong>Experience:</strong> Working in Real Estate since 2017</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="h-4 w-4 text-gold shrink-0" />
@@ -98,7 +98,7 @@ export default function AboutPage() {
                 <strong className="text-white">ONLY SPACE REALTY</strong> is an accomplished real estate firm that deals in the <strong className="text-white">&quot;Ahmedabad-West&quot;</strong> locality. Drawing from their years of experience they bring a strategic yet personal approach to the home buying, selling, and renting process.
               </p>
               <p>
-                Over the years, <strong className="text-white">ONLY SPACE REALTY</strong> has built a reputation for providing a seamless experience for customers to secure their dream home under the leadership of <strong className="text-white">Dhrumit Darji</strong> (MBA in Marketing, in Real Estate since 2015).
+                Over the years, <strong className="text-white">ONLY SPACE REALTY</strong> has built a reputation for providing a seamless experience for customers to secure their dream home under the leadership of <strong className="text-white">Dhrumit Darji</strong> (MBA in Marketing, in Real Estate since 2017).
               </p>
 
               {/* Specialities / Core Pillars */}
@@ -122,7 +122,7 @@ export default function AboutPage() {
 
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-2 text-center">
                 <div className="bg-[#181818] p-4 rounded-xl border border-neutral-800">
-                  <div className="font-serif text-xl font-bold text-gold">2015</div>
+                  <div className="font-serif text-xl font-bold text-gold">2017</div>
                   <div className="text-[10px] text-grey uppercase tracking-wider mt-1">Established</div>
                 </div>
                 <div className="bg-[#181818] p-4 rounded-xl border border-neutral-800">
@@ -241,11 +241,11 @@ export default function AboutPage() {
               <tbody>
                 <tr className="border-b border-neutral-900">
                   <td className="px-6 py-4 font-semibold text-grey uppercase text-[10px] w-1/3 bg-[#181818]/60">Real Estate Consultant</td>
-                  <td className="px-6 py-4 font-bold text-gold">ONLY SPACE REALTY (Est. Sept 21, 2015)</td>
+                  <td className="px-6 py-4 font-bold text-gold">ONLY SPACE REALTY (Est. Sept 21, 2017)</td>
                 </tr>
                 <tr className="border-b border-neutral-900">
                   <td className="px-6 py-4 font-semibold text-grey uppercase text-[10px] bg-[#181818]/60">Consultant Founder</td>
-                  <td className="px-6 py-4">Dhrumit Darji (MBA Marketing, Real Estate exp. since 2015)</td>
+                  <td className="px-6 py-4">Dhrumit Darji (MBA Marketing, Real Estate exp. since 2017)</td>
                 </tr>
                 <tr className="border-b border-neutral-900">
                   <td className="px-6 py-4 font-semibold text-grey uppercase text-[10px] bg-[#181818]/60">Consultancy HQ</td>

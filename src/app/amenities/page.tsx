@@ -68,7 +68,7 @@ export default function ServicesPage() {
             Our Consultancy Services.
           </h1>
           <p className="font-sans text-xs tracking-wider text-grey max-w-2xl leading-relaxed">
-            From residential home searches to corporate office leasing, verified land deals, banking home loans, and legal documentation — <strong className="text-white">ONLY SPACE REALTY</strong> provides 100% transparent, reliable, and committed real estate services across <strong className="text-white">Ahmedabad West</strong> since 2015.
+            From residential home searches to corporate office leasing, verified land deals, banking home loans, and legal documentation — <strong className="text-white">ONLY SPACE REALTY</strong> provides 100% transparent, reliable, and committed real estate services across <strong className="text-white">Ahmedabad West</strong> since 2017.
           </p>
         </div>
       </section>

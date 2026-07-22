@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="md:col-span-1 space-y-6">
           <Logo variant="footer" />
           <p className="font-sans text-xs tracking-wider text-grey leading-relaxed">
-            Your Trusted Real Estate Partner. Helping buyers, sellers, and investors make confident real estate decisions across Ahmedabad since 2015.
+            Your Trusted Real Estate Partner. Helping buyers, sellers, and investors make confident real estate decisions across Ahmedabad since 2017.
           </p>
 
         </div>
