@@ -465,7 +465,7 @@ export default function Home() {
             {/* Founder Portrait cutout overlay */}
             <div className="hidden sm:block absolute right-2 bottom-0 z-20 w-52 md:w-60 h-[390px]">
               <Image
-                src="/assets/founder.png"
+                src="/assets/founder_suit.png"
                 alt="Dhrumit Darji - Founder Only Space Realty"
                 fill
                 className="object-contain object-bottom filter drop-shadow-[0_15px_25px_rgba(0,0,0,0.9)]"
@@ -572,7 +572,7 @@ export default function Home() {
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5 border-b border-neutral-800 pb-6">
                   <div className="relative w-24 h-32 rounded-2xl overflow-hidden border-2 border-gold/60 shadow-xl bg-gradient-to-b from-[#2A2A2A] to-[#121212] shrink-0 group">
                     <Image
-                      src="/assets/founder.png"
+                      src="/assets/founder_suit.png"
                       alt="Dhrumit Darji - Founder & Chief Real Estate Consultant"
                       fill
                       className="object-cover object-top transition-transform duration-500 group-hover:scale-105"

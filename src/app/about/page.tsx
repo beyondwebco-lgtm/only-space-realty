@@ -48,7 +48,7 @@ export default function AboutPage() {
               <div className="flex flex-col sm:flex-row items-center gap-5 border-b border-neutral-800 pb-6">
                 <div className="relative w-28 h-36 rounded-2xl overflow-hidden border-2 border-gold/60 shadow-xl bg-gradient-to-b from-[#2A2A2A] to-[#121212] shrink-0">
                   <Image
-                    src="/assets/founder.png"
+                    src="/assets/founder_suit.png"
                     alt="Dhrumit Darji - Founder & Chief Consultant"
                     fill
                     className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
