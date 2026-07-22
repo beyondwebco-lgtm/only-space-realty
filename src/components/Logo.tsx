@@ -14,7 +14,7 @@ export default function Logo({ variant = "header", className = "" }: LogoProps) 
       <Link href="/" className={`flex items-center group cursor-pointer ${className}`}>
         <div className="relative h-14 md:h-16 w-48 md:w-60 shrink-0 transition-transform duration-300 group-hover:scale-105">
           <Image
-            src="/assets/official_logo_dark.png"
+            src="/assets/new_official_logo_dark.png"
             alt="ONLY SPACE REALTY Logo"
             fill
             sizes="(max-width: 768px) 192px, 240px"
@@ -31,7 +31,7 @@ export default function Logo({ variant = "header", className = "" }: LogoProps) 
       <Link href="/" className={`flex items-center group ${className}`}>
         <div className="relative h-16 md:h-20 w-56 md:w-72 shrink-0 transition-transform duration-300 group-hover:scale-105">
           <Image
-            src="/assets/official_logo_dark.png"
+            src="/assets/new_official_logo_dark.png"
             alt="ONLY SPACE REALTY Logo"
             fill
             sizes="288px"
@@ -46,7 +46,7 @@ export default function Logo({ variant = "header", className = "" }: LogoProps) 
     <div className={`inline-flex items-center ${className}`}>
       <div className="relative h-12 w-44 shrink-0">
         <Image
-          src="/assets/official_logo_dark.png"
+          src="/assets/new_official_logo_dark.png"
           alt="ONLY SPACE REALTY Logo"
           fill
           sizes="176px"
