@@ -67,7 +67,7 @@ export default function AboutPage() {
               <div className="space-y-3 font-sans text-xs text-neutral-300">
                 <div className="flex items-center gap-3">
                   <GraduationCap className="h-4 w-4 text-gold shrink-0" />
-                  <span><strong>Education:</strong> MBA in Marketing</span>
+                  <span><strong>Education:</strong> MBA</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <UserCheck className="h-4 w-4 text-gold shrink-0" />
@@ -98,7 +98,7 @@ export default function AboutPage() {
                 <strong className="text-white">ONLY SPACE REALTY</strong> is an accomplished real estate firm that deals in the <strong className="text-white">&quot;Ahmedabad-West&quot;</strong> locality. Drawing from their years of experience they bring a strategic yet personal approach to the home buying, selling, and renting process.
               </p>
               <p>
-                Over the years, <strong className="text-white">ONLY SPACE REALTY</strong> has built a reputation for providing a seamless experience for customers to secure their dream home under the leadership of <strong className="text-white">Dhrumit Darji</strong> (MBA in Marketing, in Real Estate since 2015).
+                Over the years, <strong className="text-white">ONLY SPACE REALTY</strong> has built a reputation for providing a seamless experience for customers to secure their dream home under the leadership of <strong className="text-white">Dhrumit Darji</strong> (MBA, in Real Estate since 2015).
               </p>
 
               {/* Specialities / Core Pillars */}
@@ -245,7 +245,7 @@ export default function AboutPage() {
                 </tr>
                 <tr className="border-b border-neutral-900">
                   <td className="px-6 py-4 font-semibold text-grey uppercase text-[10px] bg-[#181818]/60">Consultant Founder</td>
-                  <td className="px-6 py-4">Dhrumit Darji (MBA Marketing, Real Estate exp. since 2015)</td>
+                  <td className="px-6 py-4">Dhrumit Darji (MBA, Real Estate exp. since 2015)</td>
                 </tr>
                 <tr className="border-b border-neutral-900">
                   <td className="px-6 py-4 font-semibold text-grey uppercase text-[10px] bg-[#181818]/60">Consultancy HQ</td>

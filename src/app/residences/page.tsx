@@ -246,7 +246,7 @@ export default function PropertiesPage() {
             Looking for Specific Schemes in Shilaj or SBR?
           </h2>
           <p className="font-sans text-xs text-grey leading-relaxed">
-            Connect directly with <strong className="text-white">Dhrumit Darji</strong> (MBA Marketing, 10+ Years Experience in Ahmedabad West Real Estate). We will guide you through site visits, verified title checks, and price negotiations for Kaveri Soham Vivanta, Sharnya Altura, Suryansh Solitaire, Shilp One, Ashray Aurum, and many more.
+            Connect directly with <strong className="text-white">Dhrumit Darji</strong> (MBA, 10+ Years Experience in Ahmedabad West Real Estate). We will guide you through site visits, verified title checks, and price negotiations for Kaveri Soham Vivanta, Sharnya Altura, Suryansh Solitaire, Shilp One, Ashray Aurum, and many more.
           </p>
           <div className="pt-2 flex justify-center">
             <a

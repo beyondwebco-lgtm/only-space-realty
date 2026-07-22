@@ -438,7 +438,7 @@ export default function Home() {
                 Direct Guidance from Founder Dhrumit Darji
               </h4>
               <p className="font-sans text-xs tracking-wider text-neutral-300 leading-relaxed">
-                MBA in Marketing with 10+ years of dedicated real estate experience in Ahmedabad West. Personally guiding your property search across West Ahmedabad.
+                MBA with 10+ years of dedicated real estate experience in Ahmedabad West. Personally guiding your property search across West Ahmedabad.
               </p>
               <div className="pt-2">
                 <a
@@ -581,7 +581,7 @@ export default function Home() {
                 <div className="space-y-4 font-sans text-xs text-neutral-300 leading-relaxed">
                   <div className="flex items-center gap-3 bg-[#1A1A1A] p-3.5 rounded-xl border border-neutral-800">
                     <GraduationCap className="h-4 w-4 text-gold shrink-0" />
-                    <span><strong className="text-white">Qualification:</strong> MBA in Marketing</span>
+                    <span><strong className="text-white">Qualification:</strong> MBA</span>
                   </div>
                   <div className="flex items-center gap-3 bg-[#1A1A1A] p-3.5 rounded-xl border border-neutral-800">
                     <UserCheck className="h-4 w-4 text-gold shrink-0" />

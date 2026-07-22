@@ -148,7 +148,7 @@ export default function ServicesPage() {
             Need Expert Real Estate Guidance in Ahmedabad West?
           </h2>
           <p className="font-sans text-xs text-grey leading-relaxed">
-            Whether you are buying your dream home in Shilaj, leasing a corporate office on Sindhu Bhavan Road, or applying for a home loan — get direct, honest advisory from Founder Dhrumit Darji (MBA Marketing, 10+ Years Real Estate Experience).
+            Whether you are buying your dream home in Shilaj, leasing a corporate office on Sindhu Bhavan Road, or applying for a home loan — get direct, honest advisory from Founder Dhrumit Darji (MBA, 10+ Years Real Estate Experience).
           </p>
           <div className="pt-2 flex justify-center">
             <a
