@@ -132,7 +132,7 @@ const RECOMMENDATION_DATABASE: Record<string, Recommendation> = {
   "COMMERCIAL_BODAKDEV_END_USE": {
     category: "Bodakdev & SG Highway Business Outlets",
     locationBadge: "Bodakdev & SG Highway",
-    schemes: ["Shilp One (Bodakdev Sector)", "Ashray Aurum (SG Highway Belt)", "Suryansh Solitaire Retail"],
+    schemes: ["Shilp One (Bodakdev Sector)"],
     priceRange: "₹1.00 Cr – ₹3.00 Cr",
     expectedYield: "7.2% – 9.0% Expected Yield",
   },
