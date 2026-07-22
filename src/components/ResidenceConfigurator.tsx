@@ -46,7 +46,7 @@ const RECOMMENDATION_DATABASE: Record<string, Recommendation> = {
   "RESIDENTIAL_SBR_END_USE": {
     category: "Ultra-Luxury Sindhu Bhavan Sky Residences",
     locationBadge: "Sindhu Bhavan Road",
-    schemes: ["Sharnya Altura (Sindhu Bhavan Road)", "Kaveri Soham Vivanta (SBR Extension)", "Shilp One (Residential Wing)"],
+    schemes: ["Sharnya Altura (Sindhu Bhavan Road)", "Kaveri Soham Vivanta (SBR Extension)"],
     priceRange: "₹1.00 Cr – ₹3.00 Cr",
     expectedYield: "6.0% – 7.5% Expected Yield",
   },
@@ -67,14 +67,14 @@ const RECOMMENDATION_DATABASE: Record<string, Recommendation> = {
   "RESIDENTIAL_BODAKDEV_END_USE": {
     category: "Bodakdev & SG Highway Luxury Apartments",
     locationBadge: "Bodakdev Core",
-    schemes: ["Sharnya Altura (Bodakdev Sector)", "Suryansh Solitaire", "Shilp One (Luxury Sector)"],
+    schemes: ["Sharnya Altura (Bodakdev Sector)", "Suryansh Solitaire"],
     priceRange: "₹1.00 Cr – ₹3.00 Cr",
     expectedYield: "5.8% – 7.2% Expected Yield",
   },
   "RESIDENTIAL_BODAKDEV_CORPORATE": {
     category: "Bodakdev Executive Apartments & Guest Suites",
     locationBadge: "SG Highway Corridor",
-    schemes: ["Shilp One (Residential Sector)", "Kaveri Soham Vivanta", "Sharnya Altura"],
+    schemes: ["Kaveri Soham Vivanta", "Sharnya Altura"],
     priceRange: "₹1.00 Cr – ₹3.00 Cr",
     expectedYield: "6.5% – 8.0% Corporate Rental",
   },
