@@ -70,8 +70,8 @@ export default function GalleryPage() {
       category: "RESIDENTIAL",
       src: "/assets/sheladia_divine.png",
       title: "Sheladia Divine",
-      location: "Near Shilaj Circle, Ahmedabad West",
-      desc: "2 & 3 BHK residential apartments near Shilaj Circle featuring modern triple high-rise towers, lifestyle amenities, and prime connectivity.",
+      location: "Shilaj Circle near Sindhu Bhavan Road, Ahmedabad West",
+      desc: "2 & 3 BHK residential apartments located at Shilaj Circle near Sindhu Bhavan Road featuring modern triple high-rise towers, lifestyle amenities, and prime connectivity.",
     },
   ];
 
