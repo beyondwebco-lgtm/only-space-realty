@@ -61,7 +61,7 @@ export default function Home() {
             className="font-serif text-4xl sm:text-6xl md:text-7xl font-light text-white tracking-wide leading-tight"
           >
             Discover Your Ideal<br />
-            <span className="text-gold italic font-normal">Only Space.</span>
+            <span className="text-gold italic font-normal">Space.</span>
           </motion.h1>
 
           <motion.p
