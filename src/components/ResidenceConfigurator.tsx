@@ -25,7 +25,7 @@ const RECOMMENDATION_DATABASE: Record<string, Recommendation> = {
   "RESIDENTIAL_SHILAJ_END_USE": {
     category: "Luxury Residential Apartments & Sky Duplexes",
     locationBadge: "Shilaj Area",
-    schemes: ["Kaveri Soham Vivanta (Shilaj)", "Suryansh Solitaire (Shilaj Area)", "Sharnya Altura (Shilaj Corridor)"],
+    schemes: ["Sheladia Divine (Near Shilaj Circle)", "Kaveri Soham Vivanta (Shilaj)", "Suryansh Solitaire (Shilaj Area)"],
     priceRange: "₹1.00 Cr – ₹3.00 Cr",
     expectedYield: "5.5% – 7.2% Expected Rental Yield",
   },

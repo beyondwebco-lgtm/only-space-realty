@@ -20,9 +20,9 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Only Space Realty | Premium Real Estate Consultant Ahmedabad",
+  title: "Only Space Realty | Premium Real Estate Consultancy Ahmedabad",
   description: "Buy, Sell and Invest in premium residential and commercial properties with Only Space Realty.",
-  keywords: ["Only Space Realty", "Real Estate Consultant Ahmedabad", "Luxury Apartments Ahmedabad", "Shilaj Real Estate", "Commercial Property Ahmedabad", "Property Investment Ahmedabad"],
+  keywords: ["Only Space Realty", "Real Estate Consultancy Ahmedabad", "Luxury Apartments Ahmedabad", "Shilaj Real Estate", "Commercial Property Ahmedabad", "Property Investment Ahmedabad"],
 };
 
 export default function RootLayout({

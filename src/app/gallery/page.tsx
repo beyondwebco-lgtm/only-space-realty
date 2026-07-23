@@ -65,6 +65,14 @@ export default function GalleryPage() {
       location: "Near Shilaj, Ahmedabad West",
       desc: "Premier luxury residential apartments featuring modern architecture, rooftop sports courts, and lush green surroundings near Shilaj.",
     },
+    {
+      id: 6,
+      category: "RESIDENTIAL",
+      src: "/assets/sheladia_divine.png",
+      title: "Sheladia Divine",
+      location: "Near Shilaj Circle, Ahmedabad West",
+      desc: "2 & 3 BHK residential apartments near Shilaj Circle featuring modern triple high-rise towers, lifestyle amenities, and prime connectivity.",
+    },
   ];
 
   const filteredItems = activeCategory === "ALL" 
@@ -236,7 +244,7 @@ export default function GalleryPage() {
             Schedule a Personal Property Site Visit
           </h2>
           <p className="font-sans text-xs text-grey leading-relaxed">
-            Want to visit Kaveri Soham Vivanta, Sharnya Altura, Suryansh Solitaire, Shilp One, or Ashray Aurum in person? Contact Founder <strong className="text-white">Dhrumit Darji</strong> to organize a private site tour and price consultation.
+            Want to visit prime properties in Shilaj or Sindhu Bhavan Road in person? Contact Founder <strong className="text-white">Dhrumit Darji</strong> to organize a private site tour and price negotiations for best Ahmedabad West property options.
           </p>
           <div className="pt-2 flex justify-center">
             <a

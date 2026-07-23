@@ -44,7 +44,7 @@ export default function CinematicIntro() {
                 transition={{ duration: 1.5, delay: 0.2 }}
                 className="font-sans text-[10px] tracking-[0.3em] text-gold uppercase"
               >
-                ONLY SPACE REALTY • Real Estate Consultant
+                ONLY SPACE REALTY • Real Estate Consultancy
               </motion.div>
               <motion.h1
                 initial={{ opacity: 0, y: 25 }}

@@ -83,6 +83,18 @@ export default function PropertiesPage() {
       description: "Shilp One is an iconic corporate commercial landmark located on Sindhu Bhavan Road. Boasting high-street retail showrooms on lower floors and executive corporate office spaces above.",
     },
     {
+      id: "sheladia-divine",
+      name: "Sheladia Divine",
+      category: "RESIDENTIAL",
+      type: "2 & 3 BHK Residential Apartments",
+      location: "Near Shilaj Circle, Ahmedabad West",
+      price: "On Advisory Request",
+      image: "/assets/sheladia_divine.png",
+      status: "Prime Shilaj Circle Residence",
+      highlights: ["Near Shilaj Circle Location", "Spacious 2 & 3 BHK Layouts", "Modern Architectural Elevation"],
+      description: "Sheladia Divine offers thoughtfully designed 2 & 3 BHK residential apartments located right near Shilaj Circle, Ahmedabad West. Features triple high-rise towers, premium lifestyle amenities, serene landscaped surroundings, and seamless connectivity to Sindhu Bhavan Road.",
+    },
+    {
       id: "ashray-aurum",
       name: "Ashray Aurum",
       category: "RESIDENTIAL",
@@ -228,7 +240,7 @@ export default function PropertiesPage() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 bg-white text-charcoal hover:bg-gold hover:text-white transition-colors text-[10px] uppercase tracking-widest px-4 py-2.5 rounded-full font-bold cursor-pointer"
                 >
-                  Enquire Scheme <ArrowRight className="h-3 w-3" />
+                  Enquire Property <ArrowRight className="h-3 w-3" />
                 </a>
               </div>
             </div>
@@ -243,10 +255,10 @@ export default function PropertiesPage() {
             Direct Founder Consultation
           </span>
           <h2 className="font-serif text-3xl md:text-4xl font-light text-white">
-            Looking for Specific Schemes in Shilaj or SBR?
+            Looking for Premier Properties in Shilaj or SBR?
           </h2>
           <p className="font-sans text-xs text-grey leading-relaxed">
-            Connect directly with <strong className="text-white">Dhrumit Darji</strong> (MBA, 10+ Years Experience in Ahmedabad West Real Estate). We will guide you through site visits, verified title checks, and price negotiations for Kaveri Soham Vivanta, Sharnya Altura, Suryansh Solitaire, Shilp One, Ashray Aurum, and many more.
+            Connect directly with <strong className="text-white">Dhrumit Darji</strong> (MBA, 10+ Years Experience in Ahmedabad West Real Estate). We will guide you through site visits, verified title checks, and price negotiations for best Ahmedabad West property options.
           </p>
           <div className="pt-2 flex justify-center">
             <a

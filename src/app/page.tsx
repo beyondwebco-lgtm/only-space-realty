@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowRight, Waves, Shield, Trees, Compass, Download, Award, ChevronRight, Map, Star, Building2, UserCheck, GraduationCap, Quote, MapPin, ShieldCheck, CheckCircle2, MessageCircle, Mail } from "lucide-react";
+import { ArrowRight, Waves, Shield, Trees, Compass, Download, Award, ChevronRight, Map, Star, Building2, UserCheck, GraduationCap, Quote, MapPin, ShieldCheck, CheckCircle2, MessageCircle, Mail, Sparkles } from "lucide-react";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -52,7 +52,7 @@ export default function Home() {
             className="flex items-center justify-center gap-2 text-white font-sans text-xs tracking-[0.3em] uppercase"
           >
             <Compass className="h-4 w-4 text-gold animate-spin-slow" />
-            Shilaj, Ahmedabad, Gujarat
+            Shilaj &amp; Sindhu Bhavan Road, Ahmedabad, Gujarat
           </motion.div>
 
           <motion.h1
@@ -71,7 +71,7 @@ export default function Home() {
             transition={{ duration: 1.5, delay: 1.5 }}
             className="font-sans text-xs sm:text-sm tracking-widest text-neutral-300 max-w-xl mx-auto leading-relaxed"
           >
-            Ahmedabad&apos;s premier real estate consultancy. Guiding luxury homebuyers and investors across Shilaj, Bopal, SG Highway, and Thaltej.
+            Ahmedabad&apos;s premier real estate consultancy. Guiding luxury homebuyers and investors across Shilaj, Sindhu Bhavan Road, and SG Highway.
           </motion.p>
 
           <motion.div
@@ -115,19 +115,157 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 4. Luxury Manifesto */}
-      <section className="py-32 px-6 md:px-12 bg-transparent relative z-10">
-        <div className="max-w-4xl mx-auto space-y-8 text-center">
-          <span className="font-sans text-[10px] tracking-[0.25em] text-gold uppercase block">
-            The Philosophy
-          </span>
-          <h2 className="font-serif text-3xl md:text-5xl font-light tracking-wide text-white leading-tight">
-            Designed for Those Who Expect More.
-          </h2>
-          <div className="h-[1px] w-20 bg-gold mx-auto" />
-          <p className="font-serif text-lg md:text-xl text-neutral-300 font-light leading-relaxed italic max-w-3xl mx-auto">
-            “Only Space Realty represents a curated collection of vertical luxury estates where every single residence is crafted as an independent private sanctuary.”
-          </p>
+      {/* 4. Core Philosophy & Value Proposition */}
+      <section className="py-24 px-6 md:px-12 bg-gradient-to-b from-[#0A0A0A] via-[#121212] to-[#0A0A0A] relative z-10 border-y border-neutral-900/60">
+        <div className="max-w-7xl mx-auto space-y-16">
+          {/* Header Copy */}
+          <div className="max-w-3xl mx-auto space-y-4 text-center">
+            <motion.div
+              initial={{ opacity: 0, y: 15 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold/10 border border-gold/30 text-gold text-[10px] font-sans font-bold tracking-[0.25em] uppercase"
+            >
+              <Sparkles className="h-3.5 w-3.5" /> Our Guiding Philosophy
+            </motion.div>
+
+            <motion.h2
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.1 }}
+              className="font-serif text-3xl md:text-5xl font-light tracking-wide text-white leading-tight"
+            >
+              Built on Trust, Strategic Insight &amp; Absolute Transparency.
+            </motion.h2>
+
+            <div className="h-[1px] w-24 bg-gradient-to-r from-transparent via-gold to-transparent mx-auto" />
+
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="font-sans text-xs md:text-sm text-neutral-300 font-light leading-relaxed max-w-2xl mx-auto tracking-wider"
+            >
+              At <strong className="text-white">ONLY SPACE REALTY</strong>, we believe acquiring high-value real estate in West Ahmedabad should be an empowering and seamless journey. Guided by Founder Dhrumit Darji (MBA, 10+ Years in Real Estate), we curate verified residential, commercial, and land assets with unwavering commitment to client success.
+            </motion.p>
+          </div>
+
+          {/* 4 Pillars Cards Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <motion.div
+              initial={{ opacity: 0, y: 25 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              className="bg-[#141414]/90 border border-gold/20 hover:border-gold/60 p-6 rounded-2xl transition-all duration-300 hover:-translate-y-1 shadow-xl flex flex-col justify-between group"
+            >
+              <div className="space-y-4">
+                <div className="w-12 h-12 rounded-xl bg-gold/10 border border-gold/30 flex items-center justify-center text-gold group-hover:scale-110 transition-transform">
+                  <ShieldCheck className="h-6 w-6" />
+                </div>
+                <span className="text-[10px] font-sans text-gold uppercase tracking-widest font-bold block">Pillar 01</span>
+                <h3 className="font-serif text-lg font-bold text-white group-hover:text-gold transition-colors">100% Legal Transparency</h3>
+                <p className="font-sans text-xs text-neutral-400 leading-relaxed">
+                  Every property title undergoes rigorous advocate verification to guarantee dispute-free legal ownership.
+                </p>
+              </div>
+              <div className="pt-4 mt-6 border-t border-neutral-800 flex items-center gap-2 text-[10px] text-neutral-400 font-medium">
+                <CheckCircle2 className="h-3.5 w-3.5 text-gold shrink-0" /> Verified Advocate Checks
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 25 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="bg-[#141414]/90 border border-gold/20 hover:border-gold/60 p-6 rounded-2xl transition-all duration-300 hover:-translate-y-1 shadow-xl flex flex-col justify-between group"
+            >
+              <div className="space-y-4">
+                <div className="w-12 h-12 rounded-xl bg-gold/10 border border-gold/30 flex items-center justify-center text-gold group-hover:scale-110 transition-transform">
+                  <MapPin className="h-6 w-6" />
+                </div>
+                <span className="text-[10px] font-sans text-gold uppercase tracking-widest font-bold block">Pillar 02</span>
+                <h3 className="font-serif text-lg font-bold text-white group-hover:text-gold transition-colors">West Ahmedabad Focus</h3>
+                <p className="font-sans text-xs text-neutral-400 leading-relaxed">
+                  Unrivaled market intelligence across Shilaj, Sindhu Bhavan Road, and SG Highway.
+                </p>
+              </div>
+              <div className="pt-4 mt-6 border-t border-neutral-800 flex items-center gap-2 text-[10px] text-neutral-400 font-medium">
+                <CheckCircle2 className="h-3.5 w-3.5 text-gold shrink-0" /> Prime Growth Corridors
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 25 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              className="bg-[#141414]/90 border border-gold/20 hover:border-gold/60 p-6 rounded-2xl transition-all duration-300 hover:-translate-y-1 shadow-xl flex flex-col justify-between group"
+            >
+              <div className="space-y-4">
+                <div className="w-12 h-12 rounded-xl bg-gold/10 border border-gold/30 flex items-center justify-center text-gold group-hover:scale-110 transition-transform">
+                  <UserCheck className="h-6 w-6" />
+                </div>
+                <span className="text-[10px] font-sans text-gold uppercase tracking-widest font-bold block">Pillar 03</span>
+                <h3 className="font-serif text-lg font-bold text-white group-hover:text-gold transition-colors">Direct Founder Consultation</h3>
+                <p className="font-sans text-xs text-neutral-400 leading-relaxed">
+                  Personal advisory with Dhrumit Darji (MBA, 10+ Yrs Exp) for strategic negotiation and personalized matching.
+                </p>
+              </div>
+              <div className="pt-4 mt-6 border-t border-neutral-800 flex items-center gap-2 text-[10px] text-neutral-400 font-medium">
+                <CheckCircle2 className="h-3.5 w-3.5 text-gold shrink-0" /> Tailored Buyer Advocacy
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 25 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+              className="bg-[#141414]/90 border border-gold/20 hover:border-gold/60 p-6 rounded-2xl transition-all duration-300 hover:-translate-y-1 shadow-xl flex flex-col justify-between group"
+            >
+              <div className="space-y-4">
+                <div className="w-12 h-12 rounded-xl bg-gold/10 border border-gold/30 flex items-center justify-center text-gold group-hover:scale-110 transition-transform">
+                  <Award className="h-6 w-6" />
+                </div>
+                <span className="text-[10px] font-sans text-gold uppercase tracking-widest font-bold block">Pillar 04</span>
+                <h3 className="font-serif text-lg font-bold text-white group-hover:text-gold transition-colors">End-to-End Seamless Service</h3>
+                <p className="font-sans text-xs text-neutral-400 leading-relaxed">
+                  From site tours &amp; price negotiation to sub-registrar sale deed registration and home loan sanctioning.
+                </p>
+              </div>
+              <div className="pt-4 mt-6 border-t border-neutral-800 flex items-center gap-2 text-[10px] text-neutral-400 font-medium">
+                <CheckCircle2 className="h-3.5 w-3.5 text-gold shrink-0" /> Zero Hassle Guarantee
+              </div>
+            </motion.div>
+          </div>
+
+          {/* Bottom Highlights Banner */}
+          <div className="bg-[#181818]/60 border border-neutral-800 rounded-2xl p-6 flex flex-wrap items-center justify-around gap-6 text-center">
+            <div className="space-y-1">
+              <span className="font-serif text-xl md:text-2xl font-bold text-gold">2017</span>
+              <span className="text-[10px] font-sans text-neutral-400 uppercase tracking-widest block">Est. In Shilaj</span>
+            </div>
+            <div className="h-8 w-[1px] bg-neutral-800 hidden sm:block" />
+            <div className="space-y-1">
+              <span className="font-serif text-xl md:text-2xl font-bold text-gold">10+ Years</span>
+              <span className="text-[10px] font-sans text-neutral-400 uppercase tracking-widest block">Real Estate Expertise</span>
+            </div>
+            <div className="h-8 w-[1px] bg-neutral-800 hidden sm:block" />
+            <div className="space-y-1">
+              <span className="font-serif text-xl md:text-2xl font-bold text-gold">100%</span>
+              <span className="text-[10px] font-sans text-neutral-400 uppercase tracking-widest block">Verified Ownership</span>
+            </div>
+            <div className="h-8 w-[1px] bg-neutral-800 hidden sm:block" />
+            <div className="space-y-1">
+              <span className="font-serif text-xl md:text-2xl font-bold text-gold">Torrent &amp; Taj</span>
+              <span className="text-[10px] font-sans text-neutral-400 uppercase tracking-widest block">Corporate Clients</span>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -623,7 +761,7 @@ export default function Home() {
               Begin Your Legacy.
             </h2>
             <p className="font-sans text-xs tracking-wider text-grey max-w-md mx-auto leading-relaxed">
-              We welcome distinguished high-net-worth clients for scheduled site explorations. Register below to coordinate directly with our sales team and receive customized cost sheets.
+              We welcome distinguished high-net-worth clients for scheduled site explorations. Register below to coordinate directly with our sales team and receive consulting from our sales team.
             </p>
           </div>
 

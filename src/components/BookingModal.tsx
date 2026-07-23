@@ -187,7 +187,7 @@ export default function BookingModal({ isOpen, onClose }: BookingModalProps) {
                         <option value="bodakdev">Bodakdev</option>
                         <option value="science-city">Science City &amp; Science Park</option>
                         <option value="sg-highway">SG Highway</option>
-                        <option value="ambli">Ambli Bopal Road</option>
+                        <option value="ambli">Ambli Corridor</option>
                       </select>
                     </div>
                   </div>

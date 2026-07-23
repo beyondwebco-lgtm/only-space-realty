@@ -115,7 +115,7 @@ Thank you.`;
               Request Price Breakup
             </h3>
             <p className="font-sans text-xs text-grey leading-relaxed">
-              Provide your details below to receive direct floor plans, customized cost sheets, and pricing breakdowns on WhatsApp.
+              Provide your details below to receive direct floor plans, consulting from our sales team, and pricing breakdowns on WhatsApp.
             </p>
           </div>
 
@@ -217,11 +217,11 @@ Thank you.`;
                   <option value="Bodakdev & SG Highway" className="bg-[#121212] text-white">
                     Bodakdev & SG Highway
                   </option>
-                  <option value="Bopal & Ambli" className="bg-[#121212] text-white">
-                    Bopal & Ambli
+                  <option value="Ambli Area" className="bg-[#121212] text-white">
+                    Ambli Area
                   </option>
-                  <option value="Science City & Science Park & Thaltej" className="bg-[#121212] text-white">
-                    Science City &amp; Science Park &amp; Thaltej
+                  <option value="Science City & Science Park" className="bg-[#121212] text-white">
+                    Science City &amp; Science Park
                   </option>
                 </select>
               </div>
