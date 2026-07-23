@@ -54,7 +54,7 @@ export default function GalleryPage() {
       category: "COMMERCIAL",
       src: "/assets/shilp_one_v2.png",
       title: "Shilp One",
-      location: "Sindhu Bhavan Road, Bodakdev, Ahmedabad West",
+      location: "Sindhu Bhavan Road, Ahmedabad West",
       desc: "Iconic corporate commercial office building with sleek glass facade and high-street retail showrooms.",
     },
     {
@@ -93,7 +93,7 @@ export default function GalleryPage() {
             Ahmedabad West Gallery.
           </h1>
           <p className="font-sans text-xs tracking-wider text-grey max-w-2xl leading-relaxed">
-            Explore site photos, architectural elevations, and luxury interior showcases of premier schemes represented by <strong className="text-white">ONLY SPACE REALTY</strong> across Shilaj, Sindhu Bhavan Road, Bodakdev, and SG Highway.
+            Explore site photos, architectural elevations, and luxury interior showcases of premier schemes represented by <strong className="text-white">ONLY SPACE REALTY</strong> across Shilaj, Sindhu Bhavan Road, and SG Highway.
           </p>
         </div>
       </section>

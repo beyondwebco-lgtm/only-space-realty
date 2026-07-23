@@ -75,7 +75,7 @@ export default function PropertiesPage() {
       name: "Shilp One",
       category: "COMMERCIAL",
       type: "Corporate Office Towers & High-Street Retail",
-      location: "Sindhu Bhavan Road, Bodakdev, Ahmedabad West",
+      location: "Sindhu Bhavan Road, Ahmedabad West",
       price: "Corporate Leasing & Sale",
       image: "/assets/shilp_one_v2.png",
       status: "Iconic Commercial Hub",

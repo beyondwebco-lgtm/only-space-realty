@@ -19,7 +19,7 @@ export default function ServicesPage() {
       features: [
         "Curated site visits & direct owner/builder meetings",
         "Best market price negotiation & transparent terms",
-        "Properties across Shilaj, SBR, Bodakdev & Bopal",
+        "Properties across Shilaj, Sindhu Bhavan Road & SG Highway",
         "NRI home buying & rental management support",
       ],
       badge: "Residential Advisory",
