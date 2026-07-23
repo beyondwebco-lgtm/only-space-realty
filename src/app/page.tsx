@@ -11,7 +11,6 @@ import Footer from "@/components/Footer";
 import CinematicIntro from "@/components/CinematicIntro";
 import MasterPlan from "@/components/MasterPlan";
 import TowerExplorer from "@/components/TowerExplorer";
-import ResidenceConfigurator from "@/components/ResidenceConfigurator";
 import BookingModal from "@/components/BookingModal";
 import PriceBreakupModal from "@/components/PriceBreakupModal";
 import ReviewsSection from "@/components/ReviewsSection";
@@ -511,9 +510,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* 8. Material Customizer Component */}
-      <ResidenceConfigurator />
 
       {/* Real Estate Consultancy Solutions Section */}
       <section className="py-24 px-6 md:px-12 bg-transparent relative z-10" id="amenities">
