@@ -54,7 +54,7 @@ export default function GalleryPage() {
       category: "COMMERCIAL",
       src: "/assets/shilp_one_v2.png",
       title: "Shilp One",
-      location: "Sindhu Bhavan Road, Ahmedabad West",
+      location: "Shilaj Circle, Ahmedabad West",
       desc: "Iconic corporate commercial office building with sleek glass facade and high-street retail showrooms.",
     },
     {
